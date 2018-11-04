@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
   <title><?php echo $title; ?></title>
   <style type="text/css">
     #outtable{
@@ -120,8 +119,7 @@
       background: #EAE9F5
     }
   </style>
-</head>
-<body>
+</head><body>
   <!-- Main content -->
   <div class="container">
     <?php foreach ($hasil_header as $val ) : ?>
@@ -223,5 +221,4 @@
         </tr>
       </table>
   </div>          
-</body>
-</html>
+</body></html>

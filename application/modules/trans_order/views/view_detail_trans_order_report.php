@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
   <title><?php echo $title; ?></title>
   <style type="text/css">
     #outtable{
@@ -96,8 +95,7 @@
       background: #EAE9F5
     }
   </style>
-</head>
-<body>
+</head><body>
   <!-- Main content -->
   <div class="container">
     <?php foreach ($hasil_header as $val ) : ?>
@@ -127,7 +125,6 @@
     <?php endforeach ?>
 
     <table id="tbl_content" class="table table-bordered table-hover" cellspacing="0" width="100%" border="1">
-      <thead>
         <tr>
           <th style="width: 10px; text-align: left;">No</th>
           <th style="width: 300px; text-align: left;">Nama Barang</th>
@@ -135,8 +132,6 @@
           <th style="width: 50px; text-align: left;">Qty</th>
           <th style="text-align: left;">Keterangan</th>
         </tr>
-      </thead>
-      <tbody>
       <?php $no = 1; ?>
       <?php foreach ($hasil_data as $val ) : ?>
         <tr>
@@ -147,7 +142,6 @@
           <td><?php echo $val->keterangan_order; ?></td>
         </tr>
       <?php endforeach ?>
-      </tbody>
     </table>
     <table class="tbl-footer">
         <tr>
@@ -176,5 +170,4 @@
         </tr>
       </table>
   </div>          
-</body>
-</html>
+</body></html>

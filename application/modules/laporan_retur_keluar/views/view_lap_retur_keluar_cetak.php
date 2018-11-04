@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
   <title><?php echo $title; ?></title>
   <style type="text/css">
     #outtable{
@@ -70,8 +69,7 @@
       background: #EAE9F5
     }
   </style>
-</head>
-<body>
+</head><body>
    <table class="tbl-header">
       <tr>
         <td align="left" class="head-left">
@@ -156,5 +154,4 @@
         </tr>
       </table>
   </div>          
-</body>
-</html>
+</body></html>

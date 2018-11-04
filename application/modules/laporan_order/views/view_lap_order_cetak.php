@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
   <title><?php echo $title; ?></title>
   <link rel="shortcut icon" href="<?php echo config_item('assets'); ?>img/logo_thumb.png" />
   <style type="text/css">
@@ -71,8 +70,7 @@
       background: #EAE9F5
     }
   </style>
-</head>
-<body>
+</head><body>
   <table class="tbl-header">
       <tr>
         <td align="left" class="head-left">
@@ -141,5 +139,4 @@
         </tr>
     </table>
   </div>          
-</body>
-</html>
+</body></html>
